@@ -1,12 +1,19 @@
 [build]
   command = "npm run build"
-  publish = "dist"
-
+  publish = "dist/public"
+  
 [dev]
   command = "npm run dev"
   port = 5000
 
+# Handle client-side routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
+  
+# For API calls, uncomment if you need API functionality
+# [[redirects]]
+#   from = "/api/*"
+#   to = "/.netlify/functions/api/:splat"
+#   status = 200
