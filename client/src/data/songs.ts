@@ -20,7 +20,7 @@ export const songs: Song[] = [
     title: "Memories",
     artist: "Benjamin Tissot",
     album: "Bensound Collection",
-    cover: "https://images.unsplash.com/photo-1513544466683-32c565343f55?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
+    cover: "https://images.unsplash.com/photo-1558303522-d7a2bdfdbd52?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80",
     file: "https://www.bensound.com/bensound-music/bensound-memories.mp3",
     duration: "3:50"
   },
